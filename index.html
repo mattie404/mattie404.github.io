@@ -13,19 +13,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
-        <h1 class="title">Matt's Website</h1>
-        <p class="titleDesc">Welcome to my personal website!</p>
 
-        <div class="nav">
-            <!-- Language selection -->
-        <label class="langLab">Select Language: </label>
-        <select id="languageSelect">
-            <option value="english" selected>English</option>
-            <option value="hungarian">Hungarian</option>
-        </select>
+    <header>
+        <div class="header">
+            <h1 class="title">Matt's Website</h1>
+            <p class="titleDesc">Welcome to my personal website!</p>
+
+            <div class="nav">
+                <!-- Language selection -->
+                <label class="langLab">Select Language: </label>
+                <select id="languageSelect">
+                    <option value="english" selected>English</option>
+                    <option value="hungarian">Hungarian</option>
+                </select>
+                <ul class="navbar">
+                    <li class="home"><a href="index.html">Home</a></li>
+                    <li class="aboutme"><a href="aboutme.html">About Me</a></li>
+                    <li class="guestbook"><a href="guestbook.html">Guestbook</a></li>
+                    <li class="projects"><a href="projects.html">Projects</a></li>
+                    <li class="contact"><a href="contact.html" >Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <h3 class="title">asd</h3>
+    </main>
+
+    <footer>
+        2025 (C) Matthew G
+        <p><img style="border:0;width:88px;height:31px" src="images/vcss-blue.png" alt="Valid CSS!" /> <img src="images/digitalme.gif" alt="digitalme" height="31" width="88"> <img src="images/enhance.gif" alt="enhance" height="31" width="88"></p>
+    </footer>
 
     <script src="scripts/lang.js"></script>
 </body>
