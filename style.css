@@ -24,12 +24,20 @@ footer{
     color: gray;
 }
 
-.title{
+h1{
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
 }
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 
 .titleDesc{
     margin-top: 0;
