@@ -9,6 +9,8 @@
     <meta name="robots" content="follow, index">
     <meta name="author" content="Matyas G.">
 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
     <title>Matt's Website</title>
 
     <link rel="stylesheet" href="style.css">
@@ -23,7 +25,6 @@
                 <div class="nav">
                     <ul class="navbar">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutme.html">About Me</a></li>
                         <li><a href="guestbook.html">Guestbook</a></li>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -33,16 +34,37 @@
         </header>
 
         <main>
-            <div>
-                <h3>Work in progress</h3>
-                <p>This website is still work in progress.</p>
+            <!--
+            <div class="wip">
+                <h3 id="wip-header"></h3>
+                <p id="wip-desc"></p>
             </div>
+            -->
+
+            <h3>About me</h3>
+            <p>The name's Matt, I'm from Hungary and I'm studying software dev in a technical middle school. <br>
+            Even though I study software dev, I have ambitions in becoming a civil engineer. <br>
+            Sometimes I feel like I'm mentally stuck in the early-to-mid-2000s. <br>
+            I also play and make music. Feel free to listen in at <a href="projects.html" target="_self" style="text-decoration: underline;">projects</a>!</p>
+
+            <h3>Plans for this site</h3>
+            <p>
+                <ul>
+                    <li>devlog</li>
+                    <li>photo albums</li>
+                    <li>working guestbook</li>
+                    <li>webrings</li>
+                    <li>maybe even a blog</li>
+                </ul>
+            </p>
         </main>
 
         <footer>
             2025 (C) Matthew G
-            <p><img style="border:0;width:88px;height:31px" src="images/vcss-blue.png" alt="Valid CSS!" /> <img src="images/digitalme.gif" alt="digitalme" height="31" width="88"> <img src="images/enhance.gif" alt="enhance" height="31" width="88"> <img style="border:0;width:88px;height:31px" src="images/3ds.png" alt="3ds" /></p>
+            <p><img style="border:0;width:88px;height:31px" src="images/vcss-blue.png" alt="Valid CSS!" /> <img src="images/digitalme.gif" alt="digitalme" height="31" width="88"> <img src="images/made_with_windows.gif" alt="enhance" height="31" width="88"> <img style="border:0;width:88px;height:31px" src="images/3ds.png" alt="3ds" /></p>
         </footer>
     </div>
+
+    <script src="scripts/wip.js"></script>
 </body>
 </html>
