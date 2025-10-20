@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-body{
+*{
+    cursor: url(images/arrow.png), pointer;
+}
+
+body {
     background-image: url(images/bg.gif);
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -13,7 +17,7 @@ main {
     padding-top: 30px;
 }
 
-footer{
+footer {
     font-family: 'Roboto Mono', monospace;
     margin-left: 500px;
     margin-right: 500px;
@@ -24,54 +28,68 @@ footer{
     color: gray;
 }
 
-h1{
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
 }
 
-h3{
+h3 {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-
-
-.titleDesc{
+.titleDesc {
     margin-top: 0;
     text-align: center;
 }
 
-.header{
+.header {
     font-family: 'Roboto Mono', monospace;
     border: 5px solid #7610BD;
     margin-top: 30px;
     margin-left: 500px;
     margin-right: 500px;
     padding: 5px;
-
     background-color: #28282B;
 }
 
-.navbar{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.navbar li{
-    float: left;
-    padding-right: 15px;
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
 }
 
-a{
+.navbar li {
+    float: none;
+    padding-right: 0;
+}
+
+.langLab,
+#languageSelect {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.langLab {
+    margin-right: 5px;
+}
+
+a {
     color: white;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #7610BD;
 }

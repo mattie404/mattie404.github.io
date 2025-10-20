@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="Matt's personal website">
-    <meta name="keywords" content="personal, website, Matt">
+    <meta name="keywords" content="personal">
+    <meta name="robots" content="follow, index">
     <meta name="author" content="Matyas G.">
 
     <title>Matt's Website</title>
@@ -20,19 +21,22 @@
             <p class="titleDesc">Welcome to my personal website!</p>
 
             <div class="nav">
-                <!-- Language selection -->
-                <label class="langLab">Select Language: </label>
-                <select id="languageSelect">
-                    <option value="english" selected onclick="response()">English</option>
-                    <option value="hungarian" onclick="response()">Hungarian</option>
-                </select>
                 <ul class="navbar">
                     <li class="home"><a href="index.html">Home</a></li>
                     <li class="aboutme"><a href="aboutme.html">About Me</a></li>
                     <li class="guestbook"><a href="guestbook.html">Guestbook</a></li>
                     <li class="projects"><a href="projects.html">Projects</a></li>
-                    <li class="contact"><a href="contact.html" >Contact</a></li>
+                    <li class="contact"><a href="contact.html">Contact</a></li>
                 </ul>
+
+                <!-- Language selection -->
+                <div class="langSelect">
+                    <label class="langLab">Select Language: </label>
+                    <select id="languageSelect">
+                        <option value="english" selected>English</option>
+                        <option value="hungarian">Hungarian</option>
+                    </select>
+                </div>
             </div>
         </div>
     </header>
