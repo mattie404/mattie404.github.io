@@ -1,4 +1,4 @@
-const isWip = false; // set this to activate or deactivate the wip message
+const isWip = true; // set this to activate or deactivate the wip message
 
 let header = document.getElementById("wip-header");
 let desc = document.getElementById("wip-desc");
@@ -11,7 +11,7 @@ function wipStatus() {
         wipDiv.style.display = 'block'; // Show the div
 
         header.textContent = "Work In Progress!";
-        desc.textContent = "This page is currently being developed, so some functions may not work as intended."
+        desc.textContent = "Guesbook and Projects pages aren't available!"
     } else {
         wipDiv.style.display = 'none';  // Hide the div
     }
