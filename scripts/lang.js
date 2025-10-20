@@ -7,6 +7,8 @@ let languageSelect = document.getElementById("languageSelect"),
     guest = document.querySelector(".guestbook a");
     projects = document.querySelector(".projects a");
     contact = document.querySelector(".contact a");
+    wip = document.querySelector(".wip");
+    wipdesc = document.querySelector(".wipdesc");
 
 languageSelect.addEventListener("change", () => {
     let selectedLang = languageSelect.value;
@@ -19,6 +21,8 @@ languageSelect.addEventListener("change", () => {
     guest.textContent = data[selectedLang].guest;
     projects.textContent = data[selectedLang].projects;
     contact.textContent = data[selectedLang].contact;
+    wip.textContent = data[selectedLang].wip;
+    wipdesc.textContent = data[selectedLang].wipdesc;
 });
 
 let data = {
@@ -31,6 +35,8 @@ let data = {
         "guest": "Guestbook",
         "projects": "Projects",
         "contact": "Contact",
+        "wip": "Work in progress",
+        "wipdesc": "This website is still work in progress.",
     },
 
     hungarian: {
@@ -42,5 +48,7 @@ let data = {
         "guest": "Vendégkönyv",
         "projects": "Projektek",
         "contact": "Elérhetőség",
+        "wip": "Fejlesztés alatt",
+        "wipdesc": "Az oldal még fejlesztés alatt áll.",
     }
 }
