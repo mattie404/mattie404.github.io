@@ -1,3 +1,7 @@
+function response() {
+    console.log("Language has changed");
+}
+
 let languageSelect = document.getElementById("languageSelect"),
     title = document.querySelector(".title"),
     descr = document.querySelector(".titleDesc"),
