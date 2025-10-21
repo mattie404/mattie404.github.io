@@ -11,7 +11,7 @@ function wipStatus() {
         wipDiv.style.display = 'block'; // Show the div
 
         header.textContent = "Work In Progress!";
-        desc.textContent = "Guesbook and Projects pages aren't available!"
+        desc.textContent = "Projects page isn't available!"
     } else {
         wipDiv.style.display = 'none';  // Hide the div
     }
