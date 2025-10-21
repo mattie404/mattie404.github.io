@@ -1,4 +1,4 @@
-const isWip = true; // set this to activate or deactivate the wip message
+const isWip = false; // set this to activate or deactivate the wip message
 
 let header = document.getElementById("wip-header");
 let desc = document.getElementById("wip-desc");

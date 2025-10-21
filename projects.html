@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Matt's personal website">
+    <meta name="keywords" content="personal">
+    <meta name="robots" content="follow, index">
+    <meta name="author" content="Matyas G.">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <title>Matt's Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper-main">
+        <header>
+            <div class="header">
+                <h1 class="title">Matt's Website</h1>
+                <p class="titleDesc">Welcome to my personal website!</p>
+
+                <div class="nav">
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="guestbook.html">Guestbook</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="wip">
+                <h3 id="wip-header"></h3>
+                <p id="wip-desc"></p>
+            </div>
+
+            <h3>Projects</h3>
+            <p>Please select a category of projects you want to see!</p>
+            <label for="">Category selection:</label>
+            <select name="" id="projectType">
+                <option value="music" selected>Music</option>
+                <option value="programming">Programming</option>
+                <option value="movies">Movies</option>
+                <option value="others">Others</option>
+            </select>
+
+            <!-- music -->
+            <div id="music-projects" class="project-section">
+                <h4>Music Projects</h4>
+                <p>Here are a few of my songs. You can find more on my <a href="https://wwww.soundcloud.com/gmarx99" target="_blank" style="text-decoration: underline;">SoundCloud</a>!</p>
+                <section class="table">
+                    <header>
+                        <div class="headerCol">Title</div>
+                        <div class="headerCol">Year of Release</div>
+                        <div class="headerCol">Audio controller</div>
+                    </header>
+                    <div class="row">
+                        <div class="col">Stay With Me</div>
+                        <div class="col">2025</div>
+                        <div class="col">
+                            <audio controls>
+                                <source src="music/staywithme6.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">WE'LL BE RIGHT BACK</div>
+                        <div class="col">2025</div>
+                        <div class="col">
+                            <audio controls>
+                                <source src="music/beat5.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">PANIC ATTACK SOMETHING</div>
+                        <div class="col">2025</div>
+                        <div class="col">
+                            <audio controls>
+                                <source src="music/pas13-mp3-final.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Floating</div>
+                        <div class="col">2025</div>
+                        <div class="col">
+                            <audio controls>
+                                <source src="music/floating.wav" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+            </section>
+            </div>
+
+            <!-- programming -->
+            <div id="programming-projects" class="project-section">
+                <h4>Programming Projects</h4>
+                <p>Coming soon...</p>
+            </div>
+
+            <!-- movies -->
+            <div id="movies-projects" class="project-section">
+                <h4>Movie Projects</h4>
+                <p>Coming soon...</p>
+            </div>
+
+            <!-- others -->
+            <div id="others-projects" class="project-section">
+                <h4>Other Projects</h4>
+                <p>Coming soon...</p>
+            </div>
+
+        </main>
+
+        <footer>
+            2025 (C) Matthew G
+            <p><img style="border:0;width:88px;height:31px" src="images/vcss-blue.png" alt="Valid CSS!" /> <img src="images/digitalme.gif" alt="digitalme" height="31" width="88"> <img src="images/made_with_windows.gif" alt="enhance" height="31" width="88"> <img style="border:0;width:88px;height:31px" src="images/3ds.png" alt="3ds" /></p>
+        </footer>
+    </div>
+
+    <script src="scripts/selectProject.js"></script>
+    <script src="scripts/wip.js"></script>
+</body>
+</html>
