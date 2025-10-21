@@ -59,6 +59,54 @@ table a{
     text-decoration: underline;
 }
 
+.table {
+  display: table;
+  border-collapse: collapse;
+  border: 2px solid var(--purple);
+  margin: 0 auto; /* centers the table horizontally */
+}
+
+.table > header,
+.table .row {
+  display: table-row;
+    
+}
+
+.headerCol,
+.col,
+.linkCol {
+  display: table-cell;
+  border: 2px solid var(--purple);
+  border-width: 0 2px 2px 0; /* only draw bottom + right borders */
+  padding: 8px;
+}
+
+/* Add top borders only for header */
+header .headerCol {
+  border-top: 2px solid var(--purple);
+  font-weight: bold;
+}
+
+/* Last column gets right border */
+.headerCol:last-child,
+.col:last-child,
+.linkCol:last-child {
+  border-right: none;
+}
+
+/* Last row gets bottom border */
+.row:last-child .col,
+.row:last-child .linkCol {
+  border-bottom: none;
+}
+
+/* Link styling */
+.linkCol a {
+  text-decoration: underline;
+  color: var(--purple);
+}
+
+
 .wrapper-main {
     margin: 0 auto;
     max-width: 1200px;
